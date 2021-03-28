@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--处理器映射器-->
+    <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
+    <!--处理器适配器-->
+    <bean class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter"/>
+    <!--添加视图解析器，都是spring原装类进行操作，简化流程，可以学习模板引擎thymeleaf-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" id="InternalResourceViewResolver">
+        <!--从定向前缀-->
+        <property name="prefix" value="/WEB-INF/page/"/>
+        <!--后缀路径-->
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <!--配置spring Handle-->
+    <bean name="/test" class="com.sunrise.controller.MyTest"/>
+
+
+</beans>
