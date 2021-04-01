@@ -14,6 +14,8 @@
         <module>springmvc-04-mytest</module>
         <module>springmvc-05-mytest</module>
         <module>springmvc-06-annotation</module>
+        <module>springmvc-07-controller</module>
+        <module>springmvc-08-jackson</module>
 
     </modules>
 
@@ -42,6 +44,13 @@
             <groupId>javax.servlet.jsp</groupId>
             <artifactId>javax.servlet.jsp-api</artifactId>
             <version>2.2.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.18</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
