@@ -1,4 +1,4 @@
-package com.sunrise.controller;
+package com.sunrise;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

@@ -29,7 +29,7 @@
         <property name="suffix" value=".jsp"/>
     </bean>
     <!--配置spring Handle-->
-    <bean name="/test" class="com.sunrise.controller.MyTest"/>
+    <bean name="/test" class="MyTest"/>
 ```
 ###注解方式WEB.XML
 ```xml

@@ -19,6 +19,6 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
-<!--    <bean name="/first" class="com.sunrise.controller.MyController"/>-->
+<!--    <bean name="/first" class="MyController"/>-->
 
 </beans>

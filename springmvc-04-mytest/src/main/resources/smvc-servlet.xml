@@ -17,7 +17,7 @@
     </bean>
 
     <!--配置spring Handle-->
-    <bean name="/test" class="com.sunrise.controller.MyController"/>
+    <bean name="/test" class="MyController"/>
 
 
 </beans>

@@ -1,4 +1,4 @@
-package com.sunrise.controller;
+package com.sunrise;
 
 
 import com.sunrise.pojo.User;

@@ -1,4 +1,4 @@
-package com.sunrise.controller;
+package com.sunrise;
 
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.Controller;

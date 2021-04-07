@@ -17,6 +17,6 @@
     </bean>
 
     <!--配置spring Handle-->
-    <bean name="/hello" class="com.sunrise.controller.HelloController"/>
+    <bean name="/hello" class="com.sunrise.HelloController"/>
 
 </beans>

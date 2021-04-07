@@ -1,4 +1,4 @@
-package com.sunrise.controller;
+package com.sunrise;
 
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.Controller;
@@ -6,7 +6,7 @@ import org.springframework.web.servlet.mvc.Controller;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class MyTest implements Controller {
+public class MyController implements Controller {
     public ModelAndView handleRequest(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws Exception {
         //创建对接视图对象
         ModelAndView mv = new ModelAndView();
@@ -15,7 +15,7 @@ public class MyTest implements Controller {
         //对象中传入名称与参数
         mv.addObject("msg",str);
         //视图跳转
-        mv.setViewName("first");
+        mv.setViewName("frist");
         return mv;
     }
 }
